@@ -5,12 +5,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Body */
 body {
     background: #f4f6f8;
     color: #333;
     line-height: 1.6;
 }
 
+/* Header */
 header {
     background: #0f172a;
     color: white;
@@ -28,6 +30,7 @@ header p {
     margin-bottom: 20px;
 }
 
+/* Download button */
 .download-btn {
     display: inline-block;
     background: #22c55e;
@@ -49,12 +52,14 @@ header p {
     opacity: 0.8;
 }
 
+/* Main layout */
 main {
     max-width: 900px;
     margin: 40px auto;
     padding: 0 20px;
 }
 
+/* Screenshot preview */
 .preview {
     text-align: center;
     margin-bottom: 40px;
@@ -66,6 +71,7 @@ main {
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
+/* Sections */
 section {
     background: white;
     padding: 30px;
@@ -78,6 +84,7 @@ section h2 {
     color: #0f172a;
 }
 
+/* Features */
 .features ul {
     list-style: none;
 }
@@ -86,10 +93,12 @@ section h2 {
     margin-bottom: 10px;
 }
 
+/* How to install */
 .how-to ol {
     padding-left: 20px;
 }
 
+/* GitHub link */
 .github-link {
     display: inline-block;
     margin-top: 10px;
@@ -102,9 +111,44 @@ section h2 {
     text-decoration: underline;
 }
 
+/* Contact section */
+.contact ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;
     font-size: 0.9rem;
     color: #666;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    main {
+        margin: 20px auto;
+    }
+
+    section {
+        padding: 20px;
+    }
 }
